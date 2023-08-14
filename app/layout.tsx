@@ -27,6 +27,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <header>
               <div className="flex items-center justify-between">
                 <ModeToggle />
+                <nav className="ml-auto text-sm font-medium space-x-6">
+                  <Link href="/">All posts</Link>
+                </nav>
               </div>
             </header>
             <main>{children}</main>
