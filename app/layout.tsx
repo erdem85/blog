@@ -29,6 +29,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">All posts</Link>
+                  <Link href="https://erdem.lol">erdem.lol</Link>
                 </nav>
               </div>
             </header>
