@@ -8,7 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "blog.erdm.lol",
+  title: "blog.erdem.lol",
   description: "Erdem Hacisalihoglu's blog",
 }
 
